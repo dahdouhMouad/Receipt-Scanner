@@ -10,5 +10,5 @@ import SwiftUI
 
 struct CustomColor {
     static let myBlue = Color("MyBlue")
-    
+    static let myBlack = Color("MyBlack")
 }

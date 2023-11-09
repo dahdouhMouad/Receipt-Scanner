@@ -8,34 +8,43 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    @State var getStarted: Bool = false
+    @State var loginButton: Bool = false
     var body: some View {
-        ZStack {
-            CustomColor.myBlue
-                .ignoresSafeArea()
-            VStack {
-                TabView {
-                    OnbaordingSlideView(image: "Receipts", text: "Say goodbye \nto paper receipts")
-                    OnbaordingSlideView(image: "Chart", text: "Monitor your \ndaily spending ")
-                    OnbaordingSlideView(image: "Location", text: "Easily access your receipts anywhere")
-                }
-                .tabViewStyle(.page(indexDisplayMode: .always))
-                
-                Button {
+        NavigationStack {
+            ZStack {
+                CustomColor.myBlue
+                    .ignoresSafeArea()
+                VStack {
+                    TabView {
+                        OnbaordingSlideView(image: "Receipts", text: "Say goodbye \nto paper receipts")
+                        OnbaordingSlideView(image: "Chart", text: "Monitor your \ndaily spending ")
+                        OnbaordingSlideView(image: "Location", text: "Easily access your receipts anywhere")
+                    }
+                    .tabViewStyle(.page(indexDisplayMode: .always))
                     
-                } label: {
-                    WhiteButtonAsView(text:"Get Started")
-                }
-                
-                Button {
+                    Button {
+                        getStarted.toggle()
+                    } label: {
+                        WhiteButtonAsView(text:"Get Started")
+                    }
                     
-                } label: {
-                    BorderButtonAsView(text: "Login")
+                    Button {
+                        loginButton.toggle()
+                    } label: {
+                        BorderButtonAsView(text: "Login")
+                    }
                 }
-
+                .padding()
+                .navigationDestination(isPresented: $getStarted) {
+                    GetStartedView()
+                }
+                .navigationDestination(isPresented: $loginButton) {
+                    LoginView()
+                }
             }
-            .padding()
         }
-        
+        .tint(.white)
     }
 }
 
