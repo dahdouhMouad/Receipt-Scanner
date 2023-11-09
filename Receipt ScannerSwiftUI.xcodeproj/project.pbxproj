@@ -8,17 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		528D10FC2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D10FB2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift */; };
-		528D10FE2AFCF55C0072AF1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D10FD2AFCF55C0072AF1F /* ContentView.swift */; };
+		528D10FE2AFCF55C0072AF1F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D10FD2AFCF55C0072AF1F /* OnboardingView.swift */; };
 		528D11002AFCF55F0072AF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D10FF2AFCF55F0072AF1F /* Assets.xcassets */; };
 		528D11032AFCF55F0072AF1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D11022AFCF55F0072AF1F /* Preview Assets.xcassets */; };
+		528D110A2AFCF5880072AF1F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D11092AFCF5880072AF1F /* Colors.xcassets */; };
+		528D110D2AFCF61C0072AF1F /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D110C2AFCF61C0072AF1F /* CustomColors.swift */; };
+		528D11102AFCFAEA0072AF1F /* WhiteButtonAsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D110F2AFCFAEA0072AF1F /* WhiteButtonAsView.swift */; };
+		528D11122AFCFB820072AF1F /* BorderButtonAsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D11112AFCFB820072AF1F /* BorderButtonAsView.swift */; };
+		528D11152AFCFD1B0072AF1F /* OnbaordingSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D11142AFCFD1B0072AF1F /* OnbaordingSlideView.swift */; };
+		528D11232AFD01010072AF1F /* Colfax-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D11172AFD00FE0072AF1F /* Colfax-ThinItalic.otf */; };
+		528D11242AFD01010072AF1F /* Colfax-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D11182AFD00FF0072AF1F /* Colfax-Medium.otf */; };
+		528D11252AFD01010072AF1F /* Colfax-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D11192AFD00FF0072AF1F /* Colfax-Black.otf */; };
+		528D11262AFD01010072AF1F /* Colfax-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D111A2AFD00FF0072AF1F /* Colfax-BlackItalic.otf */; };
+		528D11272AFD01010072AF1F /* Colfax-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D111B2AFD00FF0072AF1F /* Colfax-Thin.otf */; };
+		528D11282AFD01010072AF1F /* Colfax-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D111C2AFD00FF0072AF1F /* Colfax-Bold.otf */; };
+		528D11292AFD01010072AF1F /* Colfax-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D111D2AFD00FF0072AF1F /* Colfax-Light.otf */; };
+		528D112A2AFD01010072AF1F /* Colfax-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D111E2AFD00FF0072AF1F /* Colfax-MediumItalic.otf */; };
+		528D112B2AFD01010072AF1F /* Colfax-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D111F2AFD01000072AF1F /* Colfax-LightItalic.otf */; };
+		528D112C2AFD01010072AF1F /* Colfax-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D11202AFD01000072AF1F /* Colfax-BoldItalic.otf */; };
+		528D112D2AFD01010072AF1F /* Colfax-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D11212AFD01000072AF1F /* Colfax-RegularItalic.otf */; };
+		528D112E2AFD01010072AF1F /* Colfax-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 528D11222AFD01000072AF1F /* Colfax-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		528D10F82AFCF55C0072AF1F /* Receipt ScannerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Receipt ScannerSwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D10FB2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt_ScannerSwiftUIApp.swift; sourceTree = "<group>"; };
-		528D10FD2AFCF55C0072AF1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		528D10FD2AFCF55C0072AF1F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		528D10FF2AFCF55F0072AF1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		528D11022AFCF55F0072AF1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		528D11092AFCF5880072AF1F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		528D110C2AFCF61C0072AF1F /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		528D110F2AFCFAEA0072AF1F /* WhiteButtonAsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButtonAsView.swift; sourceTree = "<group>"; };
+		528D11112AFCFB820072AF1F /* BorderButtonAsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButtonAsView.swift; sourceTree = "<group>"; };
+		528D11142AFCFD1B0072AF1F /* OnbaordingSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbaordingSlideView.swift; sourceTree = "<group>"; };
+		528D11172AFD00FE0072AF1F /* Colfax-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-ThinItalic.otf"; sourceTree = "<group>"; };
+		528D11182AFD00FF0072AF1F /* Colfax-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Medium.otf"; sourceTree = "<group>"; };
+		528D11192AFD00FF0072AF1F /* Colfax-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Black.otf"; sourceTree = "<group>"; };
+		528D111A2AFD00FF0072AF1F /* Colfax-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BlackItalic.otf"; sourceTree = "<group>"; };
+		528D111B2AFD00FF0072AF1F /* Colfax-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Thin.otf"; sourceTree = "<group>"; };
+		528D111C2AFD00FF0072AF1F /* Colfax-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Bold.otf"; sourceTree = "<group>"; };
+		528D111D2AFD00FF0072AF1F /* Colfax-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Light.otf"; sourceTree = "<group>"; };
+		528D111E2AFD00FF0072AF1F /* Colfax-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-MediumItalic.otf"; sourceTree = "<group>"; };
+		528D111F2AFD01000072AF1F /* Colfax-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-LightItalic.otf"; sourceTree = "<group>"; };
+		528D11202AFD01000072AF1F /* Colfax-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BoldItalic.otf"; sourceTree = "<group>"; };
+		528D11212AFD01000072AF1F /* Colfax-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-RegularItalic.otf"; sourceTree = "<group>"; };
+		528D11222AFD01000072AF1F /* Colfax-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Regular.otf"; sourceTree = "<group>"; };
+		528D112F2AFD01330072AF1F /* Receipt-ScannerSwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Receipt-ScannerSwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +86,13 @@
 		528D10FA2AFCF55C0072AF1F /* Receipt ScannerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				528D112F2AFD01330072AF1F /* Receipt-ScannerSwiftUI-Info.plist */,
+				528D11162AFD00EC0072AF1F /* Fonts */,
+				528D110E2AFCFADB0072AF1F /* UIHelpers */,
+				528D110B2AFCF60D0072AF1F /* Helpers */,
+				528D11132AFCFCE80072AF1F /* Onboarding */,
 				528D10FB2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift */,
-				528D10FD2AFCF55C0072AF1F /* ContentView.swift */,
+				528D11092AFCF5880072AF1F /* Colors.xcassets */,
 				528D10FF2AFCF55F0072AF1F /* Assets.xcassets */,
 				528D11012AFCF55F0072AF1F /* Preview Content */,
 			);
@@ -65,6 +105,51 @@
 				528D11022AFCF55F0072AF1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		528D110B2AFCF60D0072AF1F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				528D110C2AFCF61C0072AF1F /* CustomColors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		528D110E2AFCFADB0072AF1F /* UIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				528D110F2AFCFAEA0072AF1F /* WhiteButtonAsView.swift */,
+				528D11112AFCFB820072AF1F /* BorderButtonAsView.swift */,
+			);
+			path = UIHelpers;
+			sourceTree = "<group>";
+		};
+		528D11132AFCFCE80072AF1F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				528D10FD2AFCF55C0072AF1F /* OnboardingView.swift */,
+				528D11142AFCFD1B0072AF1F /* OnbaordingSlideView.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		528D11162AFD00EC0072AF1F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				528D11192AFD00FF0072AF1F /* Colfax-Black.otf */,
+				528D111A2AFD00FF0072AF1F /* Colfax-BlackItalic.otf */,
+				528D111C2AFD00FF0072AF1F /* Colfax-Bold.otf */,
+				528D11202AFD01000072AF1F /* Colfax-BoldItalic.otf */,
+				528D111D2AFD00FF0072AF1F /* Colfax-Light.otf */,
+				528D111F2AFD01000072AF1F /* Colfax-LightItalic.otf */,
+				528D11182AFD00FF0072AF1F /* Colfax-Medium.otf */,
+				528D111E2AFD00FF0072AF1F /* Colfax-MediumItalic.otf */,
+				528D11222AFD01000072AF1F /* Colfax-Regular.otf */,
+				528D11212AFD01000072AF1F /* Colfax-RegularItalic.otf */,
+				528D111B2AFD00FF0072AF1F /* Colfax-Thin.otf */,
+				528D11172AFD00FE0072AF1F /* Colfax-ThinItalic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +210,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528D112E2AFD01010072AF1F /* Colfax-Regular.otf in Resources */,
+				528D110A2AFCF5880072AF1F /* Colors.xcassets in Resources */,
+				528D112C2AFD01010072AF1F /* Colfax-BoldItalic.otf in Resources */,
 				528D11032AFCF55F0072AF1F /* Preview Assets.xcassets in Resources */,
 				528D11002AFCF55F0072AF1F /* Assets.xcassets in Resources */,
+				528D11272AFD01010072AF1F /* Colfax-Thin.otf in Resources */,
+				528D11242AFD01010072AF1F /* Colfax-Medium.otf in Resources */,
+				528D112A2AFD01010072AF1F /* Colfax-MediumItalic.otf in Resources */,
+				528D112D2AFD01010072AF1F /* Colfax-RegularItalic.otf in Resources */,
+				528D11292AFD01010072AF1F /* Colfax-Light.otf in Resources */,
+				528D11262AFD01010072AF1F /* Colfax-BlackItalic.otf in Resources */,
+				528D11252AFD01010072AF1F /* Colfax-Black.otf in Resources */,
+				528D112B2AFD01010072AF1F /* Colfax-LightItalic.otf in Resources */,
+				528D11232AFD01010072AF1F /* Colfax-ThinItalic.otf in Resources */,
+				528D11282AFD01010072AF1F /* Colfax-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528D10FE2AFCF55C0072AF1F /* ContentView.swift in Sources */,
+				528D11122AFCFB820072AF1F /* BorderButtonAsView.swift in Sources */,
+				528D11152AFCFD1B0072AF1F /* OnbaordingSlideView.swift in Sources */,
+				528D10FE2AFCF55C0072AF1F /* OnboardingView.swift in Sources */,
+				528D110D2AFCF61C0072AF1F /* CustomColors.swift in Sources */,
+				528D11102AFCFAEA0072AF1F /* WhiteButtonAsView.swift in Sources */,
 				528D10FC2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +372,7 @@
 				DEVELOPMENT_TEAM = 73U7Z45XKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Receipt-ScannerSwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +402,7 @@
 				DEVELOPMENT_TEAM = 73U7Z45XKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Receipt-ScannerSwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -11,7 +11,7 @@ import SwiftUI
 struct Receipt_ScannerSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
     }
 }
