@@ -18,6 +18,8 @@ struct OnbaordingSlideView: View {
                 Image(image)
                 .frame(height: 200)
                 
+                Spacer()
+                    .frame(height: 40)
                 
                 Text(text)
                     .font(
