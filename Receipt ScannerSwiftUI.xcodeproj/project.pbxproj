@@ -34,6 +34,7 @@
 		528D11392AFD2A550072AF1F /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D11382AFD2A550072AF1F /* PasswordTextField.swift */; };
 		528D113B2AFD2E400072AF1F /* BlueButtonAsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D113A2AFD2E400072AF1F /* BlueButtonAsView.swift */; };
 		528D113E2AFD2FEA0072AF1F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D113D2AFD2FEA0072AF1F /* RegisterView.swift */; };
+		528D11412AFD364F0072AF1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D11402AFD364F0072AF1F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		528D11382AFD2A550072AF1F /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		528D113A2AFD2E400072AF1F /* BlueButtonAsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonAsView.swift; sourceTree = "<group>"; };
 		528D113D2AFD2FEA0072AF1F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		528D11402AFD364F0072AF1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				528D11302AFD07020072AF1F /* GetStarted */,
 				528D11332AFD23F10072AF1F /* Login */,
 				528D113C2AFD2FD30072AF1F /* Register */,
+				528D113F2AFD36430072AF1F /* Home */,
 				528D10FB2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift */,
 				528D11092AFCF5880072AF1F /* Colors.xcassets */,
 				528D10FF2AFCF55F0072AF1F /* Assets.xcassets */,
@@ -194,6 +197,14 @@
 			path = Register;
 			sourceTree = "<group>";
 		};
+		528D113F2AFD36430072AF1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				528D11402AFD364F0072AF1F /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -279,6 +290,7 @@
 			files = (
 				528D11392AFD2A550072AF1F /* PasswordTextField.swift in Sources */,
 				528D11122AFCFB820072AF1F /* BorderButtonAsView.swift in Sources */,
+				528D11412AFD364F0072AF1F /* HomeView.swift in Sources */,
 				528D11152AFCFD1B0072AF1F /* OnbaordingSlideView.swift in Sources */,
 				528D10FE2AFCF55C0072AF1F /* OnboardingView.swift in Sources */,
 				528D110D2AFCF61C0072AF1F /* CustomColors.swift in Sources */,

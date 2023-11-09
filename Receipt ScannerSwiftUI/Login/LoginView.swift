@@ -11,6 +11,7 @@ struct LoginView: View {
     @State var email: String = ""
     @State var password: String = ""
     @State var registerTapped: Bool = false
+    @State var loginTapped: Bool = false
     var body: some View {
         NavigationStack {
             VStack(spacing: 12) {
@@ -25,7 +26,7 @@ struct LoginView: View {
                     .frame(height: 20)
                 
                 Button {
-                    
+                    loginTapped.toggle()
                 } label: {
                     BlueButtonAsView(text: "Login")
                 }
@@ -53,6 +54,9 @@ struct LoginView: View {
         .navigationBarBackButtonHidden()
         .navigationDestination(isPresented: $registerTapped) {
             RegisterView()
+        }
+        .navigationDestination(isPresented: $loginTapped) {
+            HomeView()
         }
     }
 }
