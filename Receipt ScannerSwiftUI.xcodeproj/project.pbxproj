@@ -35,6 +35,7 @@
 		528D113B2AFD2E400072AF1F /* BlueButtonAsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D113A2AFD2E400072AF1F /* BlueButtonAsView.swift */; };
 		528D113E2AFD2FEA0072AF1F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D113D2AFD2FEA0072AF1F /* RegisterView.swift */; };
 		528D11412AFD364F0072AF1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D11402AFD364F0072AF1F /* HomeView.swift */; };
+		528D11432AFE39FE0072AF1F /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D11422AFE39FE0072AF1F /* HomeContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		528D113A2AFD2E400072AF1F /* BlueButtonAsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButtonAsView.swift; sourceTree = "<group>"; };
 		528D113D2AFD2FEA0072AF1F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		528D11402AFD364F0072AF1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		528D11422AFE39FE0072AF1F /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				528D11402AFD364F0072AF1F /* HomeView.swift */,
+				528D11422AFE39FE0072AF1F /* HomeContentView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				528D11392AFD2A550072AF1F /* PasswordTextField.swift in Sources */,
 				528D11122AFCFB820072AF1F /* BorderButtonAsView.swift in Sources */,
 				528D11412AFD364F0072AF1F /* HomeView.swift in Sources */,
+				528D11432AFE39FE0072AF1F /* HomeContentView.swift in Sources */,
 				528D11152AFCFD1B0072AF1F /* OnbaordingSlideView.swift in Sources */,
 				528D10FE2AFCF55C0072AF1F /* OnboardingView.swift in Sources */,
 				528D110D2AFCF61C0072AF1F /* CustomColors.swift in Sources */,

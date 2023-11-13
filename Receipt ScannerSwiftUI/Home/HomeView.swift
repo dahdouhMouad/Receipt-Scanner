@@ -14,7 +14,7 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             TabView(selection: $selection) {
-                Text("Screen1")
+                HomeContentView()
                     .tabItem {
                         Label("Home", systemImage: "house")
                     }
