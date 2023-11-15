@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5257F29E2B04DD7200903E9C /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257F29D2B04DD7200903E9C /* Reminder.swift */; };
+		5257F2A02B04DDF600903E9C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257F29F2B04DDF600903E9C /* HomeViewModel.swift */; };
+		5257F2A72B04E17300903E9C /* AddAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257F2A62B04E17300903E9C /* AddAlertView.swift */; };
 		528D10FC2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D10FB2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift */; };
 		528D10FE2AFCF55C0072AF1F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D10FD2AFCF55C0072AF1F /* OnboardingView.swift */; };
 		528D11002AFCF55F0072AF1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528D10FF2AFCF55F0072AF1F /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5257F29D2B04DD7200903E9C /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		5257F29F2B04DDF600903E9C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5257F2A62B04E17300903E9C /* AddAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertView.swift; sourceTree = "<group>"; };
 		528D10F82AFCF55C0072AF1F /* Receipt ScannerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Receipt ScannerSwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D10FB2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt_ScannerSwiftUIApp.swift; sourceTree = "<group>"; };
 		528D10FD2AFCF55C0072AF1F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -83,6 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5257F2A12B04E06700903E9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5257F29D2B04DD7200903E9C /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5257F2A22B04E07100903E9C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5257F29F2B04DDF600903E9C /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5257F2A32B04E0A200903E9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				528D11402AFD364F0072AF1F /* HomeView.swift */,
+				528D11422AFE39FE0072AF1F /* HomeContentView.swift */,
+				5257F2A62B04E17300903E9C /* AddAlertView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		528D10EF2AFCF55C0072AF1F = {
 			isa = PBXGroup;
 			children = (
@@ -202,8 +234,9 @@
 		528D113F2AFD36430072AF1F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				528D11402AFD364F0072AF1F /* HomeView.swift */,
-				528D11422AFE39FE0072AF1F /* HomeContentView.swift */,
+				5257F2A12B04E06700903E9C /* Models */,
+				5257F2A22B04E07100903E9C /* ViewModels */,
+				5257F2A32B04E0A200903E9C /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -294,12 +327,15 @@
 				528D11392AFD2A550072AF1F /* PasswordTextField.swift in Sources */,
 				528D11122AFCFB820072AF1F /* BorderButtonAsView.swift in Sources */,
 				528D11412AFD364F0072AF1F /* HomeView.swift in Sources */,
+				5257F2A02B04DDF600903E9C /* HomeViewModel.swift in Sources */,
 				528D11432AFE39FE0072AF1F /* HomeContentView.swift in Sources */,
 				528D11152AFCFD1B0072AF1F /* OnbaordingSlideView.swift in Sources */,
 				528D10FE2AFCF55C0072AF1F /* OnboardingView.swift in Sources */,
+				5257F2A72B04E17300903E9C /* AddAlertView.swift in Sources */,
 				528D110D2AFCF61C0072AF1F /* CustomColors.swift in Sources */,
 				528D11322AFD07290072AF1F /* GetStartedView.swift in Sources */,
 				528D11102AFCFAEA0072AF1F /* WhiteButtonAsView.swift in Sources */,
+				5257F29E2B04DD7200903E9C /* Reminder.swift in Sources */,
 				528D11352AFD24040072AF1F /* LoginView.swift in Sources */,
 				528D10FC2AFCF55C0072AF1F /* Receipt_ScannerSwiftUIApp.swift in Sources */,
 				528D113E2AFD2FEA0072AF1F /* RegisterView.swift in Sources */,

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeContentView: View {
+    @StateObject var viewModel = HomeViewModel()
+    
     var body: some View {
         GeometryReader { gx in
             VStack {
@@ -76,10 +78,23 @@ struct HomeContentView: View {
                         Button {
                             
                         } label: {
-                            Image("Add")
+                            AddAlertView(reminderList: $viewModel.reminderList)
                         }
                     }
                     .padding([.leading,.trailing], 30)
+                    
+                    List($viewModel.reminderList) { $reminder in
+                        ReminderRow(reminder: $reminder)
+                            .swipeActions {
+                                Button {
+                                    viewModel.removeReminder(reminder)
+                                } label: {
+                                    Text("Delete")
+                                }
+                            }
+                    }
+                    .listStyle(.plain)
+                    
                 }
                 Spacer()
             }
@@ -90,5 +105,28 @@ struct HomeContentView: View {
 struct HomeContentView_Previews: PreviewProvider {
     static var previews: some View {
         HomeContentView()
+    }
+}
+
+struct ReminderRow: View {
+    @Binding var reminder: Reminder
+    
+    var body: some View {
+        HStack {
+            Button {
+                reminder.isDone.toggle()
+            } label: {
+                Image(reminder.isDone == true ? "Check":"Unchecked")
+            }
+            .padding(.trailing)
+            
+            VStack {
+                Text(reminder.title)
+                    .font(Font.custom("Colfax-medium", size: 16))
+                Text(reminder.dueDate.formatted())
+                    .font(Font.custom("Colfax-medium", size: 10))
+                    .foregroundColor(CustomColor.myBlack)
+            }
+        }
     }
 }
