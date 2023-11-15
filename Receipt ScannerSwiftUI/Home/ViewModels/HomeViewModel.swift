@@ -8,11 +8,10 @@
 import Foundation
  
 class HomeViewModel: ObservableObject {
-    @Published var reminderList: [Reminder] = [Reminder(id: UUID(), title: "fd", dueDate: .now)]
+    @Published var reminderList: [Reminder] = []
     
     func addReminder(_ reminder: Reminder) {
         reminderList.append(reminder)
-        dump(reminder)
     }
     
     func removeReminder(_ reminder: Reminder) {

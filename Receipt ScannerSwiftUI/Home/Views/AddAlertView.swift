@@ -19,16 +19,14 @@ struct AddAlertView: View {
     var body: some View {
 
         Button(action: {
-            showingAlert.toggle()
+            showingPickerDate.toggle()
         }, label: {
             Image("Add")
         })
-        .alert("Enter your name", isPresented: $showingAlert) {
-            TextField("Enter reminder title", text: $title)
-            Button("OK", action: passToDatePicker)
-        }
+        
         .sheet(isPresented: $showingPickerDate) {
             VStack {
+                CustomTextField(title: "Enter reminder title", value: $title)
                 DatePicker("Due Date", selection: $dueDate)
                     .datePickerStyle(.graphical)
                 Button {
@@ -40,8 +38,8 @@ struct AddAlertView: View {
                 .padding(.bottom, 4)
             }
             .padding()
-            .presentationDetents([.medium])
-        }
+            .presentationDetents([.fraction(3/4)])
+    }
     }
 
     func passToDatePicker() {
